@@ -1,0 +1,60 @@
+import = [
+    "~/.config/alacritty/themes/catppuccin-mocha.toml"
+]
+
+[cursor.style]
+blinking = "Off"
+#shape = "Underline"
+
+[font]
+size = 14
+
+[font.bold]
+family = "UbuntuMono Nerd Font"
+style = "Bold"
+#family = "IosevkaTerm Nerd Font"
+#style = "ExtraBold"
+
+[font.bold_italic]
+family = "UbuntuMono Nerd Font"
+style = "Bold Italic"
+#family = "IosevkaTerm Nerd Font"
+#style = "ExtraBold Italic"
+
+[font.italic]
+family = "UbuntuMono Nerd Font"
+style = "Italic"
+#family = "IosevkaTerm Nerd Font"
+#style = "SemiBold Italic"
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+style = "Regular"
+#family = "IosevkaTerm Nerd Font"
+#style = "SemiBold"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/home/s/.local/bin/nu"
+
+[window]
+opacity = 1
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 40
+y = 40

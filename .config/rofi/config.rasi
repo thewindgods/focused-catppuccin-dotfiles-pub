@@ -1,0 +1,51 @@
+configuration{
+    display-run: "➤";
+    display-emoji: "➤";
+    font: "Ubuntu Nerd Font 12";
+    //font: "Iosevka Nerd Font SemiBold 12";
+    show-icons: false;
+    terminal: "alacritty";
+    drun-display-format: "{name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    sidebar-mode: false;
+    mode-switcher: false;
+    show-match: false;
+}
+
+@theme "/dev/null"
+
+* { 
+  bg: #1e1e2e;
+  bg-alt: #cba6f7;
+
+  fg: #cdd6f4;
+  fg-alt: #1e1e2e;
+
+  background-color: @bg;
+  text-color: @fg;
+
+} 
+
+window {
+  location: north west;
+  width: 100%;
+  padding: 8;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+  highlight: bold;
+}
+
+element selected {
+  text-color: @fg-alt;
+  background-color: @bg-alt;
+}
+
+listview {
+  lines: 8;
+}
+

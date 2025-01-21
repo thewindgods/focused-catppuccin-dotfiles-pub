@@ -1,0 +1,43 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1390,
+       "width": 1267,
+       "x": 1926,
+       "y": 40
+    },
+    "marks": [],
+    "name": "",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^firefox$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1017,
+       "width": 1876,
+       "x": 32,
+       "y": 164
+    },
+    "marks": [],
+    "name": "",
+    "percent": 0.5,
+    "swallows": [
+       {
+       "class": "^firefox$"
+       }
+    ],
+    "type": "con"
+}
+

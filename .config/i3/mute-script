@@ -1,0 +1,11 @@
+#!/bin/sh
+
+volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk -F/ '{print $4}' | head -1 | tr -d % | sed 's/^ *//g')
+
+if [ "$volume" -ne 100 ]; then
+	pactl set-sink-volume @DEFAULT_SINK@ 100%
+else
+	pactl set-sink-volume @DEFAULT_SINK@ 0%
+fi
+
+exit 0

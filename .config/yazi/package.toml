@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "dedukun/relative-motions", rev = "df97039" }]
+
+[flavor]
+deps = []
